@@ -212,8 +212,8 @@
 
 <pre>
 virtualenv -p python3 venv
-source vent/bin/activate
-pip install -r requirements/common.txt
+source venv/bin/activate
+pip install -r requirements.txt
 python run.py
 
 curl http://localhost:6999/api/v1/test
